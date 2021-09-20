@@ -1,0 +1,33 @@
+{
+  "user": {
+    id,
+    username,
+    surname
+  },
+  "notion": {
+    id,
+    profileId,
+    filename,
+    createDate
+  },
+  "block": {
+    id,
+    locationId,
+    notionId,
+    createDate,
+    updateDate,
+    typeBlock,
+    valueBlock
+  },
+  "typeBlock": {
+    id,
+    nameType
+  },
+  "valueBlock": {
+    id,
+    text,
+    "files" : [],
+    "href",
+    hrefVideo or iframe
+  }
+}
